@@ -1,0 +1,689 @@
+2018-05-01 23:34:04 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-05-01 23:34:04 INFO  SparkContext:54 - Running Spark version 2.3.0
+2018-05-01 23:34:04 INFO  SparkContext:54 - Submitted application: JavaSparSort
+2018-05-01 23:34:05 INFO  SecurityManager:54 - Changing view acls to: sajmera4
+2018-05-01 23:34:05 INFO  SecurityManager:54 - Changing modify acls to: sajmera4
+2018-05-01 23:34:05 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-05-01 23:34:05 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-05-01 23:34:05 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sajmera4); groups with view permissions: Set(); users  with modify permissions: Set(sajmera4); groups with modify permissions: Set()
+2018-05-01 23:34:05 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 42037.
+2018-05-01 23:34:05 INFO  SparkEnv:54 - Registering MapOutputTracker
+2018-05-01 23:34:05 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2018-05-01 23:34:05 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2018-05-01 23:34:05 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2018-05-01 23:34:05 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-190e000d-5290-459d-818f-008a02a72579
+2018-05-01 23:34:05 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2018-05-01 23:34:06 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2018-05-01 23:34:06 INFO  log:192 - Logging initialized @4101ms
+2018-05-01 23:34:06 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2018-05-01 23:34:06 INFO  Server:414 - Started @4223ms
+2018-05-01 23:34:06 INFO  AbstractConnector:278 - Started ServerConnector@751e664e{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-05-01 23:34:06 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@79f227a9{/jobs,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7692cd34{/jobs/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@33aa93c{/jobs/job,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@106faf11{/jobs/job/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@70f43b45{/stages,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@26d10f2e{/stages/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@10ad20cb{/stages/stage,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@22ee2d0{/stages/stage/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7bfc3126{/stages/pool,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3e792ce3{/stages/pool/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@53bc1328{/storage,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@26f143ed{/storage/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c1e3314{/storage/rdd,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4b770e40{/storage/rdd/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@78e16155{/environment,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54a3ab8f{/environment/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1968a49c{/executors,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6a1ebcff{/executors/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@19868320{/executors/threadDump,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@50b0bc4c{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c20be82{/static,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@437e951d{/,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77b325b3{/api,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@271f18d3{/jobs/job/kill,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6bd51ed8{/stages/stage/kill,null,AVAILABLE,@Spark}
+2018-05-01 23:34:06 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://hadoop-d:4040
+2018-05-01 23:34:06 INFO  SparkContext:54 - Added JAR file:/exports/home/sajmera4/Spark/SparkSort.jar at spark://hadoop-d:42037/jars/SparkSort.jar with timestamp 1525217646440
+2018-05-01 23:34:07 INFO  RMProxy:98 - Connecting to ResourceManager at hadoop-d/192.168.2.62:8032
+2018-05-01 23:34:08 INFO  Client:54 - Requesting a new application from cluster with 4 NodeManagers
+2018-05-01 23:34:08 INFO  Client:54 - Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+2018-05-01 23:34:08 INFO  Client:54 - Will allocate AM container, with 896 MB memory including 384 MB overhead
+2018-05-01 23:34:08 INFO  Client:54 - Setting up container launch context for our AM
+2018-05-01 23:34:08 INFO  Client:54 - Setting up the launch environment for our AM container
+2018-05-01 23:34:08 INFO  Client:54 - Preparing resources for our AM container
+2018-05-01 23:34:09 WARN  Client:66 - Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+2018-05-01 23:34:13 INFO  Client:54 - Uploading resource file:/tmp/spark-435c1a06-0635-4f87-a1b2-2a3e98e80bca/__spark_libs__9110074743409009251.zip -> hdfs://hadoop-d:9000/user/sajmera4/.sparkStaging/application_1524709778346_0462/__spark_libs__9110074743409009251.zip
+2018-05-01 23:34:14 INFO  Client:54 - Uploading resource file:/tmp/spark-435c1a06-0635-4f87-a1b2-2a3e98e80bca/__spark_conf__3428891908608216158.zip -> hdfs://hadoop-d:9000/user/sajmera4/.sparkStaging/application_1524709778346_0462/__spark_conf__.zip
+2018-05-01 23:34:15 INFO  SecurityManager:54 - Changing view acls to: sajmera4
+2018-05-01 23:34:15 INFO  SecurityManager:54 - Changing modify acls to: sajmera4
+2018-05-01 23:34:15 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-05-01 23:34:15 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-05-01 23:34:15 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sajmera4); groups with view permissions: Set(); users  with modify permissions: Set(sajmera4); groups with modify permissions: Set()
+2018-05-01 23:34:15 INFO  Client:54 - Submitting application application_1524709778346_0462 to ResourceManager
+2018-05-01 23:34:15 INFO  YarnClientImpl:273 - Submitted application application_1524709778346_0462
+2018-05-01 23:34:15 INFO  SchedulerExtensionServices:54 - Starting Yarn extension services with app application_1524709778346_0462 and attemptId None
+2018-05-01 23:34:16 INFO  Client:54 - Application report for application_1524709778346_0462 (state: ACCEPTED)
+2018-05-01 23:34:16 INFO  Client:54 - 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1525217655092
+	 final status: UNDEFINED
+	 tracking URL: http://hadoop-d:8088/proxy/application_1524709778346_0462/
+	 user: sajmera4
+2018-05-01 23:34:17 INFO  Client:54 - Application report for application_1524709778346_0462 (state: ACCEPTED)
+2018-05-01 23:34:18 INFO  Client:54 - Application report for application_1524709778346_0462 (state: ACCEPTED)
+2018-05-01 23:34:19 INFO  Client:54 - Application report for application_1524709778346_0462 (state: ACCEPTED)
+2018-05-01 23:34:20 INFO  Client:54 - Application report for application_1524709778346_0462 (state: ACCEPTED)
+2018-05-01 23:34:20 INFO  YarnClientSchedulerBackend:54 - Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> hadoop-d, PROXY_URI_BASES -> http://hadoop-d:8088/proxy/application_1524709778346_0462), /proxy/application_1524709778346_0462
+2018-05-01 23:34:20 INFO  JettyUtils:54 - Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+2018-05-01 23:34:20 INFO  YarnSchedulerBackend$YarnSchedulerEndpoint:54 - ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+2018-05-01 23:34:21 INFO  Client:54 - Application report for application_1524709778346_0462 (state: RUNNING)
+2018-05-01 23:34:21 INFO  Client:54 - 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.2.62
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1525217655092
+	 final status: UNDEFINED
+	 tracking URL: http://hadoop-d:8088/proxy/application_1524709778346_0462/
+	 user: sajmera4
+2018-05-01 23:34:21 INFO  YarnClientSchedulerBackend:54 - Application application_1524709778346_0462 has started running.
+2018-05-01 23:34:21 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42867.
+2018-05-01 23:34:21 INFO  NettyBlockTransferService:54 - Server created on hadoop-d:42867
+2018-05-01 23:34:21 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-05-01 23:34:21 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, hadoop-d, 42867, None)
+2018-05-01 23:34:21 INFO  BlockManagerMasterEndpoint:54 - Registering block manager hadoop-d:42867 with 366.3 MB RAM, BlockManagerId(driver, hadoop-d, 42867, None)
+2018-05-01 23:34:21 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, hadoop-d, 42867, None)
+2018-05-01 23:34:21 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, hadoop-d, 42867, None)
+2018-05-01 23:34:21 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@bb3ecfe{/metrics/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:25 INFO  YarnSchedulerBackend$YarnDriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.2.62:39650) with ID 3
+2018-05-01 23:34:25 INFO  BlockManagerMasterEndpoint:54 - Registering block manager hadoop-d:41915 with 912.3 MB RAM, BlockManagerId(3, hadoop-d, 41915, None)
+2018-05-01 23:34:27 INFO  YarnSchedulerBackend$YarnDriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.2.62:39654) with ID 7
+2018-05-01 23:34:27 INFO  BlockManagerMasterEndpoint:54 - Registering block manager hadoop-d:36995 with 912.3 MB RAM, BlockManagerId(7, hadoop-d, 36995, None)
+2018-05-01 23:34:29 INFO  YarnSchedulerBackend$YarnDriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.2.59:45102) with ID 1
+2018-05-01 23:34:30 INFO  YarnSchedulerBackend$YarnDriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.2.55:37782) with ID 6
+2018-05-01 23:34:30 INFO  BlockManagerMasterEndpoint:54 - Registering block manager hadoop-d-3:36164 with 912.3 MB RAM, BlockManagerId(1, hadoop-d-3, 36164, None)
+2018-05-01 23:34:30 INFO  BlockManagerMasterEndpoint:54 - Registering block manager hadoop-d-2:44254 with 912.3 MB RAM, BlockManagerId(6, hadoop-d-2, 44254, None)
+2018-05-01 23:34:30 INFO  YarnSchedulerBackend$YarnDriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.2.59:45104) with ID 5
+2018-05-01 23:34:30 INFO  BlockManagerMasterEndpoint:54 - Registering block manager hadoop-d-3:44836 with 912.3 MB RAM, BlockManagerId(5, hadoop-d-3, 44836, None)
+2018-05-01 23:34:30 INFO  YarnSchedulerBackend$YarnDriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.2.55:37786) with ID 2
+2018-05-01 23:34:30 INFO  BlockManagerMasterEndpoint:54 - Registering block manager hadoop-d-2:45266 with 912.3 MB RAM, BlockManagerId(2, hadoop-d-2, 45266, None)
+2018-05-01 23:34:32 INFO  YarnSchedulerBackend$YarnDriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.2.47:42522) with ID 4
+2018-05-01 23:34:32 INFO  BlockManagerMasterEndpoint:54 - Registering block manager hadoop-d-1:40268 with 912.3 MB RAM, BlockManagerId(4, hadoop-d-1, 40268, None)
+2018-05-01 23:34:32 INFO  YarnSchedulerBackend$YarnDriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.2.47:42524) with ID 8
+2018-05-01 23:34:32 INFO  BlockManagerMasterEndpoint:54 - Registering block manager hadoop-d-1:43103 with 912.3 MB RAM, BlockManagerId(8, hadoop-d-1, 43103, None)
+2018-05-01 23:34:36 INFO  YarnClientSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000(ms)
+2018-05-01 23:34:36 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/exports/home/sajmera4/Spark/spark-warehouse/').
+2018-05-01 23:34:36 INFO  SharedState:54 - Warehouse path is 'file:/exports/home/sajmera4/Spark/spark-warehouse/'.
+2018-05-01 23:34:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@17ff8810{/SQL,null,AVAILABLE,@Spark}
+2018-05-01 23:34:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6c951ada{/SQL/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@14de1901{/SQL/execution,null,AVAILABLE,@Spark}
+2018-05-01 23:34:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@437ed416{/SQL/execution/json,null,AVAILABLE,@Spark}
+2018-05-01 23:34:36 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5c8d58ed{/static/sql,null,AVAILABLE,@Spark}
+2018-05-01 23:34:37 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+2018-05-01 23:34:38 INFO  FileSourceStrategy:54 - Pruning directories with: 
+2018-05-01 23:34:38 INFO  FileSourceStrategy:54 - Post-Scan Filters: 
+2018-05-01 23:34:38 INFO  FileSourceStrategy:54 - Output Data Schema: struct<value: string>
+2018-05-01 23:34:38 INFO  FileSourceScanExec:54 - Pushed Filters: 
+2018-05-01 23:34:39 INFO  CodeGenerator:54 - Code generated in 248.138859 ms
+2018-05-01 23:34:39 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 278.5 KB, free 366.0 MB)
+2018-05-01 23:34:39 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 23.9 KB, free 366.0 MB)
+2018-05-01 23:34:39 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on hadoop-d:42867 (size: 23.9 KB, free: 366.3 MB)
+2018-05-01 23:34:39 INFO  SparkContext:54 - Created broadcast 0 from javaRDD at SparkSort.java:56
+2018-05-01 23:34:39 INFO  FileSourceScanExec:54 - Planning scan with bin packing, max size: 134217728 bytes, open cost is considered as scanning 4194304 bytes.
+2018-05-01 23:34:40 INFO  SparkContext:54 - Starting job: sortByKey at SparkSort.java:66
+2018-05-01 23:34:40 INFO  DAGScheduler:54 - Got job 0 (sortByKey at SparkSort.java:66) with 60 output partitions
+2018-05-01 23:34:40 INFO  DAGScheduler:54 - Final stage: ResultStage 0 (sortByKey at SparkSort.java:66)
+2018-05-01 23:34:40 INFO  DAGScheduler:54 - Parents of final stage: List()
+2018-05-01 23:34:40 INFO  DAGScheduler:54 - Missing parents: List()
+2018-05-01 23:34:40 INFO  DAGScheduler:54 - Submitting ResultStage 0 (MapPartitionsRDD[6] at sortByKey at SparkSort.java:66), which has no missing parents
+2018-05-01 23:34:40 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 10.8 KB, free 366.0 MB)
+2018-05-01 23:34:40 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 5.7 KB, free 366.0 MB)
+2018-05-01 23:34:40 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on hadoop-d:42867 (size: 5.7 KB, free: 366.3 MB)
+2018-05-01 23:34:40 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+2018-05-01 23:34:40 INFO  DAGScheduler:54 - Submitting 60 missing tasks from ResultStage 0 (MapPartitionsRDD[6] at sortByKey at SparkSort.java:66) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+2018-05-01 23:34:40 INFO  YarnScheduler:54 - Adding task set 0.0 with 60 tasks
+2018-05-01 23:34:40 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, hadoop-d, executor 7, partition 0, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:40 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, hadoop-d, executor 3, partition 1, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:40 INFO  TaskSetManager:54 - Starting task 2.0 in stage 0.0 (TID 2, hadoop-d, executor 7, partition 2, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:40 INFO  TaskSetManager:54 - Starting task 3.0 in stage 0.0 (TID 3, hadoop-d, executor 3, partition 3, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:40 INFO  TaskSetManager:54 - Starting task 4.0 in stage 0.0 (TID 4, hadoop-d, executor 7, partition 4, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:40 INFO  TaskSetManager:54 - Starting task 5.0 in stage 0.0 (TID 5, hadoop-d, executor 3, partition 5, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:40 INFO  TaskSetManager:54 - Starting task 6.0 in stage 0.0 (TID 6, hadoop-d, executor 7, partition 6, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:40 INFO  TaskSetManager:54 - Starting task 7.0 in stage 0.0 (TID 7, hadoop-d, executor 3, partition 7, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:41 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on hadoop-d:36995 (size: 5.7 KB, free: 912.3 MB)
+2018-05-01 23:34:41 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on hadoop-d:41915 (size: 5.7 KB, free: 912.3 MB)
+2018-05-01 23:34:44 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on hadoop-d:36995 (size: 23.9 KB, free: 912.3 MB)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 8.0 in stage 0.0 (TID 8, hadoop-d-2, executor 6, partition 8, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 9.0 in stage 0.0 (TID 9, hadoop-d-1, executor 8, partition 9, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 10.0 in stage 0.0 (TID 10, hadoop-d-3, executor 1, partition 10, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 11.0 in stage 0.0 (TID 11, hadoop-d-1, executor 4, partition 11, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 12.0 in stage 0.0 (TID 12, hadoop-d-3, executor 5, partition 12, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 13.0 in stage 0.0 (TID 13, hadoop-d-2, executor 2, partition 13, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 14.0 in stage 0.0 (TID 14, hadoop-d-2, executor 6, partition 14, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 15.0 in stage 0.0 (TID 15, hadoop-d-1, executor 8, partition 15, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 16.0 in stage 0.0 (TID 16, hadoop-d-3, executor 1, partition 16, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 17.0 in stage 0.0 (TID 17, hadoop-d-1, executor 4, partition 17, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 18.0 in stage 0.0 (TID 18, hadoop-d-3, executor 5, partition 18, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 19.0 in stage 0.0 (TID 19, hadoop-d-2, executor 2, partition 19, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 20.0 in stage 0.0 (TID 20, hadoop-d-2, executor 6, partition 20, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 21.0 in stage 0.0 (TID 21, hadoop-d-1, executor 8, partition 21, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 22.0 in stage 0.0 (TID 22, hadoop-d-3, executor 1, partition 22, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 23.0 in stage 0.0 (TID 23, hadoop-d-1, executor 4, partition 23, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 24.0 in stage 0.0 (TID 24, hadoop-d-3, executor 5, partition 24, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 25.0 in stage 0.0 (TID 25, hadoop-d-2, executor 2, partition 25, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 26.0 in stage 0.0 (TID 26, hadoop-d-2, executor 6, partition 26, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 27.0 in stage 0.0 (TID 27, hadoop-d-1, executor 8, partition 27, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 28.0 in stage 0.0 (TID 28, hadoop-d-3, executor 1, partition 28, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 29.0 in stage 0.0 (TID 29, hadoop-d-1, executor 4, partition 29, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 30.0 in stage 0.0 (TID 30, hadoop-d-3, executor 5, partition 30, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  TaskSetManager:54 - Starting task 31.0 in stage 0.0 (TID 31, hadoop-d-2, executor 2, partition 31, RACK_LOCAL, 8323 bytes)
+2018-05-01 23:34:44 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on hadoop-d:41915 (size: 23.9 KB, free: 912.3 MB)
+2018-05-01 23:34:45 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on hadoop-d-2:45266 (size: 5.7 KB, free: 912.3 MB)
+2018-05-01 23:34:45 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on hadoop-d-2:44254 (size: 5.7 KB, free: 912.3 MB)
+2018-05-01 23:34:45 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on hadoop-d-3:36164 (size: 5.7 KB, free: 912.3 MB)
+2018-05-01 23:34:45 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on hadoop-d-3:44836 (size: 5.7 KB, free: 912.3 MB)
+2018-05-01 23:34:45 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on hadoop-d-1:40268 (size: 5.7 KB, free: 912.3 MB)
+2018-05-01 23:34:45 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on hadoop-d-1:43103 (size: 5.7 KB, free: 912.3 MB)
+2018-05-01 23:34:47 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on hadoop-d-2:45266 (size: 23.9 KB, free: 912.3 MB)
+2018-05-01 23:34:48 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on hadoop-d-3:44836 (size: 23.9 KB, free: 912.3 MB)
+2018-05-01 23:34:48 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on hadoop-d-3:36164 (size: 23.9 KB, free: 912.3 MB)
+2018-05-01 23:34:48 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on hadoop-d-2:44254 (size: 23.9 KB, free: 912.3 MB)
+2018-05-01 23:34:48 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on hadoop-d-1:43103 (size: 23.9 KB, free: 912.3 MB)
+2018-05-01 23:34:48 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on hadoop-d-1:40268 (size: 23.9 KB, free: 912.3 MB)
+2018-05-01 23:34:49 INFO  TaskSetManager:54 - Starting task 32.0 in stage 0.0 (TID 32, hadoop-d, executor 7, partition 32, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:49 INFO  TaskSetManager:54 - Finished task 2.0 in stage 0.0 (TID 2) in 9642 ms on hadoop-d (executor 7) (1/60)
+2018-05-01 23:34:50 INFO  TaskSetManager:54 - Starting task 33.0 in stage 0.0 (TID 33, hadoop-d, executor 3, partition 33, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:50 INFO  TaskSetManager:54 - Finished task 3.0 in stage 0.0 (TID 3) in 9848 ms on hadoop-d (executor 3) (2/60)
+2018-05-01 23:34:50 INFO  TaskSetManager:54 - Starting task 34.0 in stage 0.0 (TID 34, hadoop-d, executor 7, partition 34, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:50 INFO  TaskSetManager:54 - Finished task 6.0 in stage 0.0 (TID 6) in 10547 ms on hadoop-d (executor 7) (3/60)
+2018-05-01 23:34:50 INFO  TaskSetManager:54 - Starting task 35.0 in stage 0.0 (TID 35, hadoop-d, executor 3, partition 35, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:50 INFO  TaskSetManager:54 - Finished task 5.0 in stage 0.0 (TID 5) in 10609 ms on hadoop-d (executor 3) (4/60)
+2018-05-01 23:34:50 INFO  TaskSetManager:54 - Starting task 36.0 in stage 0.0 (TID 36, hadoop-d, executor 3, partition 36, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:50 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 10646 ms on hadoop-d (executor 3) (5/60)
+2018-05-01 23:34:51 INFO  TaskSetManager:54 - Starting task 37.0 in stage 0.0 (TID 37, hadoop-d, executor 7, partition 37, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:51 INFO  TaskSetManager:54 - Finished task 4.0 in stage 0.0 (TID 4) in 10882 ms on hadoop-d (executor 7) (6/60)
+2018-05-01 23:34:51 INFO  TaskSetManager:54 - Starting task 38.0 in stage 0.0 (TID 38, hadoop-d, executor 3, partition 38, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:51 INFO  TaskSetManager:54 - Finished task 7.0 in stage 0.0 (TID 7) in 11120 ms on hadoop-d (executor 3) (7/60)
+2018-05-01 23:34:51 INFO  TaskSetManager:54 - Starting task 39.0 in stage 0.0 (TID 39, hadoop-d, executor 7, partition 39, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:51 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 11182 ms on hadoop-d (executor 7) (8/60)
+2018-05-01 23:34:53 INFO  TaskSetManager:54 - Starting task 40.0 in stage 0.0 (TID 40, hadoop-d, executor 7, partition 40, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:53 INFO  TaskSetManager:54 - Finished task 37.0 in stage 0.0 (TID 37) in 2622 ms on hadoop-d (executor 7) (9/60)
+2018-05-01 23:34:53 INFO  TaskSetManager:54 - Starting task 41.0 in stage 0.0 (TID 41, hadoop-d, executor 3, partition 41, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:53 INFO  TaskSetManager:54 - Finished task 35.0 in stage 0.0 (TID 35) in 3044 ms on hadoop-d (executor 3) (10/60)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Starting task 42.0 in stage 0.0 (TID 42, hadoop-d, executor 3, partition 42, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Finished task 33.0 in stage 0.0 (TID 33) in 4022 ms on hadoop-d (executor 3) (11/60)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Starting task 43.0 in stage 0.0 (TID 43, hadoop-d, executor 7, partition 43, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Finished task 34.0 in stage 0.0 (TID 34) in 3440 ms on hadoop-d (executor 7) (12/60)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Starting task 44.0 in stage 0.0 (TID 44, hadoop-d, executor 7, partition 44, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Finished task 32.0 in stage 0.0 (TID 32) in 4377 ms on hadoop-d (executor 7) (13/60)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Starting task 45.0 in stage 0.0 (TID 45, hadoop-d, executor 3, partition 45, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Finished task 36.0 in stage 0.0 (TID 36) in 3726 ms on hadoop-d (executor 3) (14/60)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Starting task 46.0 in stage 0.0 (TID 46, hadoop-d, executor 3, partition 46, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Finished task 38.0 in stage 0.0 (TID 38) in 3397 ms on hadoop-d (executor 3) (15/60)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Starting task 47.0 in stage 0.0 (TID 47, hadoop-d, executor 7, partition 47, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:54 INFO  TaskSetManager:54 - Finished task 39.0 in stage 0.0 (TID 39) in 3474 ms on hadoop-d (executor 7) (16/60)
+2018-05-01 23:34:56 INFO  TaskSetManager:54 - Starting task 48.0 in stage 0.0 (TID 48, hadoop-d, executor 3, partition 48, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:56 INFO  TaskSetManager:54 - Finished task 41.0 in stage 0.0 (TID 41) in 2580 ms on hadoop-d (executor 3) (17/60)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Starting task 49.0 in stage 0.0 (TID 49, hadoop-d, executor 7, partition 49, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Finished task 40.0 in stage 0.0 (TID 40) in 3426 ms on hadoop-d (executor 7) (18/60)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Starting task 50.0 in stage 0.0 (TID 50, hadoop-d, executor 7, partition 50, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Finished task 43.0 in stage 0.0 (TID 43) in 3056 ms on hadoop-d (executor 7) (19/60)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Starting task 51.0 in stage 0.0 (TID 51, hadoop-d, executor 3, partition 51, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Finished task 42.0 in stage 0.0 (TID 42) in 3378 ms on hadoop-d (executor 3) (20/60)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Starting task 52.0 in stage 0.0 (TID 52, hadoop-d, executor 3, partition 52, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Finished task 45.0 in stage 0.0 (TID 45) in 2907 ms on hadoop-d (executor 3) (21/60)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Starting task 53.0 in stage 0.0 (TID 53, hadoop-d, executor 7, partition 53, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:57 INFO  TaskSetManager:54 - Finished task 44.0 in stage 0.0 (TID 44) in 3692 ms on hadoop-d (executor 7) (22/60)
+2018-05-01 23:34:58 INFO  TaskSetManager:54 - Starting task 54.0 in stage 0.0 (TID 54, hadoop-d, executor 3, partition 54, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:58 INFO  TaskSetManager:54 - Finished task 46.0 in stage 0.0 (TID 46) in 3665 ms on hadoop-d (executor 3) (23/60)
+2018-05-01 23:34:58 INFO  TaskSetManager:54 - Starting task 55.0 in stage 0.0 (TID 55, hadoop-d, executor 7, partition 55, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:58 INFO  TaskSetManager:54 - Finished task 47.0 in stage 0.0 (TID 47) in 3768 ms on hadoop-d (executor 7) (24/60)
+2018-05-01 23:34:59 INFO  TaskSetManager:54 - Starting task 56.0 in stage 0.0 (TID 56, hadoop-d, executor 3, partition 56, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:59 INFO  TaskSetManager:54 - Finished task 48.0 in stage 0.0 (TID 48) in 3231 ms on hadoop-d (executor 3) (25/60)
+2018-05-01 23:34:59 INFO  TaskSetManager:54 - Starting task 57.0 in stage 0.0 (TID 57, hadoop-d, executor 7, partition 57, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:34:59 INFO  TaskSetManager:54 - Finished task 50.0 in stage 0.0 (TID 50) in 2636 ms on hadoop-d (executor 7) (26/60)
+2018-05-01 23:35:00 INFO  TaskSetManager:54 - Starting task 58.0 in stage 0.0 (TID 58, hadoop-d, executor 7, partition 58, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:35:00 INFO  TaskSetManager:54 - Finished task 49.0 in stage 0.0 (TID 49) in 3209 ms on hadoop-d (executor 7) (27/60)
+2018-05-01 23:35:00 INFO  TaskSetManager:54 - Starting task 59.0 in stage 0.0 (TID 59, hadoop-d, executor 3, partition 59, NODE_LOCAL, 8323 bytes)
+2018-05-01 23:35:00 INFO  TaskSetManager:54 - Finished task 52.0 in stage 0.0 (TID 52) in 3115 ms on hadoop-d (executor 3) (28/60)
+2018-05-01 23:35:01 INFO  TaskSetManager:54 - Finished task 51.0 in stage 0.0 (TID 51) in 3595 ms on hadoop-d (executor 3) (29/60)
+2018-05-01 23:35:01 INFO  TaskSetManager:54 - Finished task 25.0 in stage 0.0 (TID 25) in 17247 ms on hadoop-d-2 (executor 2) (30/60)
+2018-05-01 23:35:01 INFO  TaskSetManager:54 - Finished task 54.0 in stage 0.0 (TID 54) in 2980 ms on hadoop-d (executor 3) (31/60)
+2018-05-01 23:35:01 INFO  TaskSetManager:54 - Finished task 53.0 in stage 0.0 (TID 53) in 3565 ms on hadoop-d (executor 7) (32/60)
+2018-05-01 23:35:02 INFO  TaskSetManager:54 - Finished task 55.0 in stage 0.0 (TID 55) in 3361 ms on hadoop-d (executor 7) (33/60)
+2018-05-01 23:35:02 INFO  TaskSetManager:54 - Finished task 59.0 in stage 0.0 (TID 59) in 1537 ms on hadoop-d (executor 3) (34/60)
+2018-05-01 23:35:02 INFO  TaskSetManager:54 - Finished task 57.0 in stage 0.0 (TID 57) in 2388 ms on hadoop-d (executor 7) (35/60)
+2018-05-01 23:35:02 INFO  TaskSetManager:54 - Finished task 19.0 in stage 0.0 (TID 19) in 18211 ms on hadoop-d-2 (executor 2) (36/60)
+2018-05-01 23:35:02 INFO  TaskSetManager:54 - Finished task 56.0 in stage 0.0 (TID 56) in 2775 ms on hadoop-d (executor 3) (37/60)
+2018-05-01 23:35:02 INFO  TaskSetManager:54 - Finished task 58.0 in stage 0.0 (TID 58) in 2152 ms on hadoop-d (executor 7) (38/60)
+2018-05-01 23:35:05 INFO  TaskSetManager:54 - Finished task 14.0 in stage 0.0 (TID 14) in 21024 ms on hadoop-d-2 (executor 6) (39/60)
+2018-05-01 23:35:05 INFO  TaskSetManager:54 - Finished task 31.0 in stage 0.0 (TID 31) in 21094 ms on hadoop-d-2 (executor 2) (40/60)
+2018-05-01 23:35:05 INFO  TaskSetManager:54 - Finished task 26.0 in stage 0.0 (TID 26) in 21707 ms on hadoop-d-2 (executor 6) (41/60)
+2018-05-01 23:35:07 INFO  TaskSetManager:54 - Finished task 28.0 in stage 0.0 (TID 28) in 23532 ms on hadoop-d-3 (executor 1) (42/60)
+2018-05-01 23:35:11 INFO  TaskSetManager:54 - Finished task 8.0 in stage 0.0 (TID 8) in 27505 ms on hadoop-d-2 (executor 6) (43/60)
+2018-05-01 23:35:11 INFO  TaskSetManager:54 - Finished task 20.0 in stage 0.0 (TID 20) in 27792 ms on hadoop-d-2 (executor 6) (44/60)
+2018-05-01 23:35:12 INFO  TaskSetManager:54 - Finished task 13.0 in stage 0.0 (TID 13) in 28798 ms on hadoop-d-2 (executor 2) (45/60)
+2018-05-01 23:35:14 INFO  TaskSetManager:54 - Finished task 21.0 in stage 0.0 (TID 21) in 30362 ms on hadoop-d-1 (executor 8) (46/60)
+2018-05-01 23:35:15 INFO  TaskSetManager:54 - Finished task 18.0 in stage 0.0 (TID 18) in 31633 ms on hadoop-d-3 (executor 5) (47/60)
+2018-05-01 23:35:17 INFO  TaskSetManager:54 - Finished task 22.0 in stage 0.0 (TID 22) in 32958 ms on hadoop-d-3 (executor 1) (48/60)
+2018-05-01 23:35:17 INFO  TaskSetManager:54 - Finished task 30.0 in stage 0.0 (TID 30) in 33433 ms on hadoop-d-3 (executor 5) (49/60)
+2018-05-01 23:35:17 INFO  TaskSetManager:54 - Finished task 10.0 in stage 0.0 (TID 10) in 33702 ms on hadoop-d-3 (executor 1) (50/60)
+2018-05-01 23:35:17 INFO  TaskSetManager:54 - Finished task 12.0 in stage 0.0 (TID 12) in 33819 ms on hadoop-d-3 (executor 5) (51/60)
+2018-05-01 23:35:18 INFO  TaskSetManager:54 - Finished task 23.0 in stage 0.0 (TID 23) in 34107 ms on hadoop-d-1 (executor 4) (52/60)
+2018-05-01 23:35:18 INFO  TaskSetManager:54 - Finished task 24.0 in stage 0.0 (TID 24) in 34177 ms on hadoop-d-3 (executor 5) (53/60)
+2018-05-01 23:35:18 INFO  TaskSetManager:54 - Finished task 9.0 in stage 0.0 (TID 9) in 34442 ms on hadoop-d-1 (executor 8) (54/60)
+2018-05-01 23:35:18 INFO  TaskSetManager:54 - Finished task 17.0 in stage 0.0 (TID 17) in 34671 ms on hadoop-d-1 (executor 4) (55/60)
+2018-05-01 23:35:19 INFO  TaskSetManager:54 - Finished task 15.0 in stage 0.0 (TID 15) in 34955 ms on hadoop-d-1 (executor 8) (56/60)
+2018-05-01 23:35:19 INFO  TaskSetManager:54 - Finished task 11.0 in stage 0.0 (TID 11) in 35178 ms on hadoop-d-1 (executor 4) (57/60)
+2018-05-01 23:35:19 INFO  TaskSetManager:54 - Finished task 16.0 in stage 0.0 (TID 16) in 35357 ms on hadoop-d-3 (executor 1) (58/60)
+2018-05-01 23:35:19 INFO  TaskSetManager:54 - Finished task 29.0 in stage 0.0 (TID 29) in 35612 ms on hadoop-d-1 (executor 4) (59/60)
+2018-05-01 23:35:19 INFO  TaskSetManager:54 - Finished task 27.0 in stage 0.0 (TID 27) in 35674 ms on hadoop-d-1 (executor 8) (60/60)
+2018-05-01 23:35:19 INFO  YarnScheduler:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2018-05-01 23:35:19 INFO  DAGScheduler:54 - ResultStage 0 (sortByKey at SparkSort.java:66) finished in 39.676 s
+2018-05-01 23:35:19 INFO  DAGScheduler:54 - Job 0 finished: sortByKey at SparkSort.java:66, took 39.829480 s
+2018-05-01 23:35:20 INFO  deprecation:1173 - mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2018-05-01 23:35:20 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-05-01 23:35:20 INFO  SparkContext:54 - Starting job: runJob at SparkHadoopWriter.scala:78
+2018-05-01 23:35:20 INFO  DAGScheduler:54 - Registering RDD 4 (mapToPair at SparkSort.java:58)
+2018-05-01 23:35:20 INFO  DAGScheduler:54 - Got job 1 (runJob at SparkHadoopWriter.scala:78) with 60 output partitions
+2018-05-01 23:35:20 INFO  DAGScheduler:54 - Final stage: ResultStage 2 (runJob at SparkHadoopWriter.scala:78)
+2018-05-01 23:35:20 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 1)
+2018-05-01 23:35:20 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 1)
+2018-05-01 23:35:20 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 1 (MapPartitionsRDD[4] at mapToPair at SparkSort.java:58), which has no missing parents
+2018-05-01 23:35:20 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 12.3 KB, free 366.0 MB)
+2018-05-01 23:35:20 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 6.9 KB, free 366.0 MB)
+2018-05-01 23:35:20 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on hadoop-d:42867 (size: 6.9 KB, free: 366.3 MB)
+2018-05-01 23:35:20 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+2018-05-01 23:35:20 INFO  DAGScheduler:54 - Submitting 60 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[4] at mapToPair at SparkSort.java:58) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+2018-05-01 23:35:20 INFO  YarnScheduler:54 - Adding task set 1.0 with 60 tasks
+2018-05-01 23:35:20 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 60, hadoop-d, executor 3, partition 0, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:20 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 61, hadoop-d, executor 7, partition 1, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:20 INFO  TaskSetManager:54 - Starting task 2.0 in stage 1.0 (TID 62, hadoop-d, executor 3, partition 2, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:20 INFO  TaskSetManager:54 - Starting task 3.0 in stage 1.0 (TID 63, hadoop-d, executor 7, partition 3, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:20 INFO  TaskSetManager:54 - Starting task 4.0 in stage 1.0 (TID 64, hadoop-d, executor 3, partition 4, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:20 INFO  TaskSetManager:54 - Starting task 5.0 in stage 1.0 (TID 65, hadoop-d, executor 7, partition 5, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:20 INFO  TaskSetManager:54 - Starting task 6.0 in stage 1.0 (TID 66, hadoop-d, executor 3, partition 6, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:20 INFO  TaskSetManager:54 - Starting task 7.0 in stage 1.0 (TID 67, hadoop-d, executor 7, partition 7, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:20 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on hadoop-d:36995 (size: 6.9 KB, free: 912.3 MB)
+2018-05-01 23:35:20 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on hadoop-d:41915 (size: 6.9 KB, free: 912.3 MB)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 8.0 in stage 1.0 (TID 68, hadoop-d-1, executor 4, partition 8, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 9.0 in stage 1.0 (TID 69, hadoop-d-3, executor 1, partition 9, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 10.0 in stage 1.0 (TID 70, hadoop-d-2, executor 6, partition 10, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 11.0 in stage 1.0 (TID 71, hadoop-d-1, executor 8, partition 11, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 12.0 in stage 1.0 (TID 72, hadoop-d-2, executor 2, partition 12, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 13.0 in stage 1.0 (TID 73, hadoop-d-3, executor 5, partition 13, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 14.0 in stage 1.0 (TID 74, hadoop-d-1, executor 4, partition 14, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 15.0 in stage 1.0 (TID 75, hadoop-d-3, executor 1, partition 15, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 16.0 in stage 1.0 (TID 76, hadoop-d-2, executor 6, partition 16, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 17.0 in stage 1.0 (TID 77, hadoop-d-1, executor 8, partition 17, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 18.0 in stage 1.0 (TID 78, hadoop-d-2, executor 2, partition 18, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 19.0 in stage 1.0 (TID 79, hadoop-d-3, executor 5, partition 19, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 20.0 in stage 1.0 (TID 80, hadoop-d-1, executor 4, partition 20, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 21.0 in stage 1.0 (TID 81, hadoop-d-3, executor 1, partition 21, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 22.0 in stage 1.0 (TID 82, hadoop-d-2, executor 6, partition 22, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 23.0 in stage 1.0 (TID 83, hadoop-d-1, executor 8, partition 23, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 24.0 in stage 1.0 (TID 84, hadoop-d-2, executor 2, partition 24, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 25.0 in stage 1.0 (TID 85, hadoop-d-3, executor 5, partition 25, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 26.0 in stage 1.0 (TID 86, hadoop-d-1, executor 4, partition 26, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 27.0 in stage 1.0 (TID 87, hadoop-d-3, executor 1, partition 27, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 28.0 in stage 1.0 (TID 88, hadoop-d-2, executor 6, partition 28, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 29.0 in stage 1.0 (TID 89, hadoop-d-1, executor 8, partition 29, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 30.0 in stage 1.0 (TID 90, hadoop-d-2, executor 2, partition 30, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  TaskSetManager:54 - Starting task 31.0 in stage 1.0 (TID 91, hadoop-d-3, executor 5, partition 31, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:24 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on hadoop-d-3:36164 (size: 6.9 KB, free: 912.3 MB)
+2018-05-01 23:35:24 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on hadoop-d-1:40268 (size: 6.9 KB, free: 912.3 MB)
+2018-05-01 23:35:24 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on hadoop-d-1:43103 (size: 6.9 KB, free: 912.3 MB)
+2018-05-01 23:35:24 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on hadoop-d-2:45266 (size: 6.9 KB, free: 912.3 MB)
+2018-05-01 23:35:24 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on hadoop-d-2:44254 (size: 6.9 KB, free: 912.3 MB)
+2018-05-01 23:35:24 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on hadoop-d-3:44836 (size: 6.9 KB, free: 912.3 MB)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Finished task 4.0 in stage 1.0 (TID 64) in 10379 ms on hadoop-d (executor 3) (1/60)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Starting task 32.0 in stage 1.0 (TID 92, hadoop-d, executor 3, partition 32, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Starting task 33.0 in stage 1.0 (TID 93, hadoop-d, executor 3, partition 33, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Finished task 2.0 in stage 1.0 (TID 62) in 10388 ms on hadoop-d (executor 3) (2/60)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Starting task 34.0 in stage 1.0 (TID 94, hadoop-d, executor 7, partition 34, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 61) in 10413 ms on hadoop-d (executor 7) (3/60)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Starting task 35.0 in stage 1.0 (TID 95, hadoop-d, executor 3, partition 35, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Finished task 6.0 in stage 1.0 (TID 66) in 10482 ms on hadoop-d (executor 3) (4/60)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Starting task 36.0 in stage 1.0 (TID 96, hadoop-d, executor 3, partition 36, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:30 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 60) in 10709 ms on hadoop-d (executor 3) (5/60)
+2018-05-01 23:35:31 INFO  TaskSetManager:54 - Starting task 37.0 in stage 1.0 (TID 97, hadoop-d, executor 7, partition 37, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:31 INFO  TaskSetManager:54 - Finished task 7.0 in stage 1.0 (TID 67) in 11669 ms on hadoop-d (executor 7) (6/60)
+2018-05-01 23:35:32 INFO  TaskSetManager:54 - Starting task 38.0 in stage 1.0 (TID 98, hadoop-d, executor 7, partition 38, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:32 INFO  TaskSetManager:54 - Finished task 5.0 in stage 1.0 (TID 65) in 11853 ms on hadoop-d (executor 7) (7/60)
+2018-05-01 23:35:32 INFO  TaskSetManager:54 - Starting task 39.0 in stage 1.0 (TID 99, hadoop-d, executor 7, partition 39, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:32 INFO  TaskSetManager:54 - Finished task 3.0 in stage 1.0 (TID 63) in 12508 ms on hadoop-d (executor 7) (8/60)
+2018-05-01 23:35:39 INFO  TaskSetManager:54 - Starting task 40.0 in stage 1.0 (TID 100, hadoop-d, executor 3, partition 40, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:39 INFO  TaskSetManager:54 - Finished task 35.0 in stage 1.0 (TID 95) in 9067 ms on hadoop-d (executor 3) (9/60)
+2018-05-01 23:35:40 INFO  TaskSetManager:54 - Starting task 41.0 in stage 1.0 (TID 101, hadoop-d, executor 7, partition 41, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:40 INFO  TaskSetManager:54 - Finished task 34.0 in stage 1.0 (TID 94) in 9843 ms on hadoop-d (executor 7) (10/60)
+2018-05-01 23:35:40 INFO  TaskSetManager:54 - Starting task 42.0 in stage 1.0 (TID 102, hadoop-d, executor 3, partition 42, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:40 INFO  TaskSetManager:54 - Finished task 33.0 in stage 1.0 (TID 93) in 10144 ms on hadoop-d (executor 3) (11/60)
+2018-05-01 23:35:40 INFO  TaskSetManager:54 - Finished task 32.0 in stage 1.0 (TID 92) in 10157 ms on hadoop-d (executor 3) (12/60)
+2018-05-01 23:35:40 INFO  TaskSetManager:54 - Starting task 43.0 in stage 1.0 (TID 103, hadoop-d, executor 3, partition 43, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:41 INFO  TaskSetManager:54 - Starting task 44.0 in stage 1.0 (TID 104, hadoop-d, executor 3, partition 44, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:41 INFO  TaskSetManager:54 - Finished task 36.0 in stage 1.0 (TID 96) in 10461 ms on hadoop-d (executor 3) (13/60)
+2018-05-01 23:35:41 INFO  TaskSetManager:54 - Starting task 45.0 in stage 1.0 (TID 105, hadoop-d, executor 7, partition 45, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:41 INFO  TaskSetManager:54 - Finished task 37.0 in stage 1.0 (TID 97) in 9940 ms on hadoop-d (executor 7) (14/60)
+2018-05-01 23:35:41 INFO  TaskSetManager:54 - Finished task 39.0 in stage 1.0 (TID 99) in 9248 ms on hadoop-d (executor 7) (15/60)
+2018-05-01 23:35:41 INFO  TaskSetManager:54 - Starting task 46.0 in stage 1.0 (TID 106, hadoop-d, executor 7, partition 46, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:41 INFO  TaskSetManager:54 - Starting task 47.0 in stage 1.0 (TID 107, hadoop-d, executor 7, partition 47, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:41 INFO  TaskSetManager:54 - Finished task 38.0 in stage 1.0 (TID 98) in 9962 ms on hadoop-d (executor 7) (16/60)
+2018-05-01 23:35:42 INFO  TaskSetManager:54 - Finished task 11.0 in stage 1.0 (TID 71) in 18775 ms on hadoop-d-1 (executor 8) (17/60)
+2018-05-01 23:35:45 INFO  TaskSetManager:54 - Starting task 48.0 in stage 1.0 (TID 108, hadoop-d-1, executor 8, partition 48, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:45 INFO  TaskSetManager:54 - Starting task 49.0 in stage 1.0 (TID 109, hadoop-d-3, executor 5, partition 49, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:45 INFO  TaskSetManager:54 - Finished task 25.0 in stage 1.0 (TID 85) in 21106 ms on hadoop-d-3 (executor 5) (18/60)
+2018-05-01 23:35:46 INFO  TaskSetManager:54 - Starting task 50.0 in stage 1.0 (TID 110, hadoop-d-3, executor 5, partition 50, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:46 INFO  TaskSetManager:54 - Finished task 31.0 in stage 1.0 (TID 91) in 21974 ms on hadoop-d-3 (executor 5) (19/60)
+2018-05-01 23:35:46 INFO  TaskSetManager:54 - Starting task 51.0 in stage 1.0 (TID 111, hadoop-d-1, executor 4, partition 51, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:46 INFO  TaskSetManager:54 - Finished task 8.0 in stage 1.0 (TID 68) in 22018 ms on hadoop-d-1 (executor 4) (20/60)
+2018-05-01 23:35:46 INFO  TaskSetManager:54 - Starting task 52.0 in stage 1.0 (TID 112, hadoop-d-2, executor 2, partition 52, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:46 INFO  TaskSetManager:54 - Finished task 12.0 in stage 1.0 (TID 72) in 22722 ms on hadoop-d-2 (executor 2) (21/60)
+2018-05-01 23:35:47 INFO  TaskSetManager:54 - Finished task 26.0 in stage 1.0 (TID 86) in 22887 ms on hadoop-d-1 (executor 4) (22/60)
+2018-05-01 23:35:47 INFO  TaskSetManager:54 - Starting task 53.0 in stage 1.0 (TID 113, hadoop-d-1, executor 4, partition 53, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:47 INFO  TaskSetManager:54 - Starting task 54.0 in stage 1.0 (TID 114, hadoop-d-3, executor 5, partition 54, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:47 INFO  TaskSetManager:54 - Finished task 19.0 in stage 1.0 (TID 79) in 23033 ms on hadoop-d-3 (executor 5) (23/60)
+2018-05-01 23:35:47 INFO  TaskSetManager:54 - Starting task 55.0 in stage 1.0 (TID 115, hadoop-d-1, executor 4, partition 55, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:47 INFO  TaskSetManager:54 - Finished task 14.0 in stage 1.0 (TID 74) in 23815 ms on hadoop-d-1 (executor 4) (24/60)
+2018-05-01 23:35:47 INFO  TaskSetManager:54 - Finished task 22.0 in stage 1.0 (TID 82) in 23829 ms on hadoop-d-2 (executor 6) (25/60)
+2018-05-01 23:35:47 INFO  TaskSetManager:54 - Starting task 56.0 in stage 1.0 (TID 116, hadoop-d-2, executor 6, partition 56, RACK_LOCAL, 8312 bytes)
+2018-05-01 23:35:49 INFO  TaskSetManager:54 - Starting task 57.0 in stage 1.0 (TID 117, hadoop-d, executor 7, partition 57, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:49 INFO  TaskSetManager:54 - Finished task 41.0 in stage 1.0 (TID 101) in 9066 ms on hadoop-d (executor 7) (26/60)
+2018-05-01 23:35:49 INFO  TaskSetManager:54 - Finished task 20.0 in stage 1.0 (TID 80) in 25347 ms on hadoop-d-1 (executor 4) (27/60)
+2018-05-01 23:35:49 INFO  TaskSetManager:54 - Starting task 58.0 in stage 1.0 (TID 118, hadoop-d, executor 3, partition 58, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:49 INFO  TaskSetManager:54 - Finished task 40.0 in stage 1.0 (TID 100) in 9773 ms on hadoop-d (executor 3) (28/60)
+2018-05-01 23:35:49 INFO  TaskSetManager:54 - Starting task 59.0 in stage 1.0 (TID 119, hadoop-d, executor 3, partition 59, NODE_LOCAL, 8312 bytes)
+2018-05-01 23:35:49 INFO  TaskSetManager:54 - Finished task 43.0 in stage 1.0 (TID 103) in 8780 ms on hadoop-d (executor 3) (29/60)
+2018-05-01 23:35:49 INFO  TaskSetManager:54 - Finished task 18.0 in stage 1.0 (TID 78) in 25513 ms on hadoop-d-2 (executor 2) (30/60)
+2018-05-01 23:35:49 INFO  TaskSetManager:54 - Finished task 44.0 in stage 1.0 (TID 104) in 8619 ms on hadoop-d (executor 3) (31/60)
+2018-05-01 23:35:50 INFO  TaskSetManager:54 - Finished task 47.0 in stage 1.0 (TID 107) in 8228 ms on hadoop-d (executor 7) (32/60)
+2018-05-01 23:35:50 INFO  TaskSetManager:54 - Finished task 13.0 in stage 1.0 (TID 73) in 26237 ms on hadoop-d-3 (executor 5) (33/60)
+2018-05-01 23:35:50 INFO  TaskSetManager:54 - Finished task 42.0 in stage 1.0 (TID 102) in 9725 ms on hadoop-d (executor 3) (34/60)
+2018-05-01 23:35:51 INFO  TaskSetManager:54 - Finished task 45.0 in stage 1.0 (TID 105) in 9257 ms on hadoop-d (executor 7) (35/60)
+2018-05-01 23:35:51 INFO  TaskSetManager:54 - Finished task 46.0 in stage 1.0 (TID 106) in 9149 ms on hadoop-d (executor 7) (36/60)
+2018-05-01 23:35:51 INFO  TaskSetManager:54 - Finished task 9.0 in stage 1.0 (TID 69) in 27534 ms on hadoop-d-3 (executor 1) (37/60)
+2018-05-01 23:35:52 INFO  TaskSetManager:54 - Finished task 30.0 in stage 1.0 (TID 90) in 28243 ms on hadoop-d-2 (executor 2) (38/60)
+2018-05-01 23:35:52 INFO  TaskSetManager:54 - Finished task 10.0 in stage 1.0 (TID 70) in 28491 ms on hadoop-d-2 (executor 6) (39/60)
+2018-05-01 23:35:54 INFO  TaskSetManager:54 - Finished task 17.0 in stage 1.0 (TID 77) in 30120 ms on hadoop-d-1 (executor 8) (40/60)
+2018-05-01 23:35:54 INFO  TaskSetManager:54 - Finished task 24.0 in stage 1.0 (TID 84) in 30145 ms on hadoop-d-2 (executor 2) (41/60)
+2018-05-01 23:35:54 INFO  TaskSetManager:54 - Finished task 15.0 in stage 1.0 (TID 75) in 30201 ms on hadoop-d-3 (executor 1) (42/60)
+2018-05-01 23:35:54 INFO  TaskSetManager:54 - Finished task 59.0 in stage 1.0 (TID 119) in 4939 ms on hadoop-d (executor 3) (43/60)
+2018-05-01 23:35:54 INFO  TaskSetManager:54 - Finished task 27.0 in stage 1.0 (TID 87) in 30584 ms on hadoop-d-3 (executor 1) (44/60)
+2018-05-01 23:35:55 INFO  TaskSetManager:54 - Finished task 23.0 in stage 1.0 (TID 83) in 30990 ms on hadoop-d-1 (executor 8) (45/60)
+2018-05-01 23:35:55 INFO  TaskSetManager:54 - Finished task 29.0 in stage 1.0 (TID 89) in 31613 ms on hadoop-d-1 (executor 8) (46/60)
+2018-05-01 23:35:55 INFO  TaskSetManager:54 - Finished task 28.0 in stage 1.0 (TID 88) in 31710 ms on hadoop-d-2 (executor 6) (47/60)
+2018-05-01 23:35:55 INFO  TaskSetManager:54 - Finished task 58.0 in stage 1.0 (TID 118) in 6487 ms on hadoop-d (executor 3) (48/60)
+2018-05-01 23:35:56 INFO  TaskSetManager:54 - Finished task 57.0 in stage 1.0 (TID 117) in 6799 ms on hadoop-d (executor 7) (49/60)
+2018-05-01 23:35:56 INFO  TaskSetManager:54 - Finished task 16.0 in stage 1.0 (TID 76) in 32314 ms on hadoop-d-2 (executor 6) (50/60)
+2018-05-01 23:35:56 INFO  TaskSetManager:54 - Finished task 21.0 in stage 1.0 (TID 81) in 32462 ms on hadoop-d-3 (executor 1) (51/60)
+2018-05-01 23:36:02 INFO  TaskSetManager:54 - Finished task 55.0 in stage 1.0 (TID 115) in 14700 ms on hadoop-d-1 (executor 4) (52/60)
+2018-05-01 23:36:03 INFO  TaskSetManager:54 - Finished task 51.0 in stage 1.0 (TID 111) in 17842 ms on hadoop-d-1 (executor 4) (53/60)
+2018-05-01 23:36:04 INFO  TaskSetManager:54 - Finished task 56.0 in stage 1.0 (TID 116) in 16041 ms on hadoop-d-2 (executor 6) (54/60)
+2018-05-01 23:36:04 INFO  TaskSetManager:54 - Finished task 54.0 in stage 1.0 (TID 114) in 17219 ms on hadoop-d-3 (executor 5) (55/60)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Finished task 50.0 in stage 1.0 (TID 110) in 19156 ms on hadoop-d-3 (executor 5) (56/60)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Finished task 49.0 in stage 1.0 (TID 109) in 20075 ms on hadoop-d-3 (executor 5) (57/60)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Finished task 53.0 in stage 1.0 (TID 113) in 18496 ms on hadoop-d-1 (executor 4) (58/60)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Finished task 48.0 in stage 1.0 (TID 108) in 20430 ms on hadoop-d-1 (executor 8) (59/60)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Finished task 52.0 in stage 1.0 (TID 112) in 18902 ms on hadoop-d-2 (executor 2) (60/60)
+2018-05-01 23:36:05 INFO  YarnScheduler:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2018-05-01 23:36:05 INFO  DAGScheduler:54 - ShuffleMapStage 1 (mapToPair at SparkSort.java:58) finished in 45.631 s
+2018-05-01 23:36:05 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-05-01 23:36:05 INFO  DAGScheduler:54 - running: Set()
+2018-05-01 23:36:05 INFO  DAGScheduler:54 - waiting: Set(ResultStage 2)
+2018-05-01 23:36:05 INFO  DAGScheduler:54 - failed: Set()
+2018-05-01 23:36:05 INFO  DAGScheduler:54 - Submitting ResultStage 2 (MapPartitionsRDD[9] at saveAsTextFile at SparkSort.java:76), which has no missing parents
+2018-05-01 23:36:05 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 73.7 KB, free 365.9 MB)
+2018-05-01 23:36:05 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 27.5 KB, free 365.9 MB)
+2018-05-01 23:36:05 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on hadoop-d:42867 (size: 27.5 KB, free: 366.2 MB)
+2018-05-01 23:36:05 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1039
+2018-05-01 23:36:05 INFO  DAGScheduler:54 - Submitting 60 missing tasks from ResultStage 2 (MapPartitionsRDD[9] at saveAsTextFile at SparkSort.java:76) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+2018-05-01 23:36:05 INFO  YarnScheduler:54 - Adding task set 2.0 with 60 tasks
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 120, hadoop-d, executor 7, partition 0, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Starting task 1.0 in stage 2.0 (TID 121, hadoop-d, executor 3, partition 1, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Starting task 2.0 in stage 2.0 (TID 122, hadoop-d, executor 7, partition 2, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Starting task 3.0 in stage 2.0 (TID 123, hadoop-d, executor 3, partition 3, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Starting task 4.0 in stage 2.0 (TID 124, hadoop-d, executor 7, partition 4, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Starting task 5.0 in stage 2.0 (TID 125, hadoop-d, executor 3, partition 5, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Starting task 6.0 in stage 2.0 (TID 126, hadoop-d, executor 7, partition 6, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:05 INFO  TaskSetManager:54 - Starting task 7.0 in stage 2.0 (TID 127, hadoop-d, executor 3, partition 7, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:05 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on hadoop-d:41915 (size: 27.5 KB, free: 912.2 MB)
+2018-05-01 23:36:05 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on hadoop-d:36995 (size: 27.5 KB, free: 912.2 MB)
+2018-05-01 23:36:06 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 0 to 192.168.2.62:39650
+2018-05-01 23:36:06 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 0 to 192.168.2.62:39654
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 8.0 in stage 2.0 (TID 128, hadoop-d-2, executor 6, partition 8, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 9.0 in stage 2.0 (TID 129, hadoop-d-1, executor 4, partition 9, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 10.0 in stage 2.0 (TID 130, hadoop-d-3, executor 1, partition 10, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 11.0 in stage 2.0 (TID 131, hadoop-d-1, executor 8, partition 11, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 12.0 in stage 2.0 (TID 132, hadoop-d-2, executor 2, partition 12, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 13.0 in stage 2.0 (TID 133, hadoop-d-3, executor 5, partition 13, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 14.0 in stage 2.0 (TID 134, hadoop-d-2, executor 6, partition 14, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 15.0 in stage 2.0 (TID 135, hadoop-d-1, executor 4, partition 15, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 16.0 in stage 2.0 (TID 136, hadoop-d-3, executor 1, partition 16, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 17.0 in stage 2.0 (TID 137, hadoop-d-1, executor 8, partition 17, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 18.0 in stage 2.0 (TID 138, hadoop-d-2, executor 2, partition 18, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 19.0 in stage 2.0 (TID 139, hadoop-d-3, executor 5, partition 19, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 20.0 in stage 2.0 (TID 140, hadoop-d-2, executor 6, partition 20, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 21.0 in stage 2.0 (TID 141, hadoop-d-1, executor 4, partition 21, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 22.0 in stage 2.0 (TID 142, hadoop-d-3, executor 1, partition 22, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 23.0 in stage 2.0 (TID 143, hadoop-d-1, executor 8, partition 23, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 24.0 in stage 2.0 (TID 144, hadoop-d-2, executor 2, partition 24, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 25.0 in stage 2.0 (TID 145, hadoop-d-3, executor 5, partition 25, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 26.0 in stage 2.0 (TID 146, hadoop-d-2, executor 6, partition 26, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 27.0 in stage 2.0 (TID 147, hadoop-d-1, executor 4, partition 27, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 28.0 in stage 2.0 (TID 148, hadoop-d-3, executor 1, partition 28, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 29.0 in stage 2.0 (TID 149, hadoop-d-1, executor 8, partition 29, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 30.0 in stage 2.0 (TID 150, hadoop-d-2, executor 2, partition 30, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  TaskSetManager:54 - Starting task 31.0 in stage 2.0 (TID 151, hadoop-d-3, executor 5, partition 31, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:09 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on hadoop-d-1:40268 (size: 27.5 KB, free: 912.2 MB)
+2018-05-01 23:36:09 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on hadoop-d-1:43103 (size: 27.5 KB, free: 912.2 MB)
+2018-05-01 23:36:09 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 0 to 192.168.2.47:42522
+2018-05-01 23:36:09 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on hadoop-d-2:44254 (size: 27.5 KB, free: 912.2 MB)
+2018-05-01 23:36:09 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 0 to 192.168.2.55:37782
+2018-05-01 23:36:09 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 0 to 192.168.2.47:42524
+2018-05-01 23:36:09 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on hadoop-d-3:36164 (size: 27.5 KB, free: 912.2 MB)
+2018-05-01 23:36:09 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on hadoop-d-3:44836 (size: 27.5 KB, free: 912.2 MB)
+2018-05-01 23:36:09 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on hadoop-d-2:45266 (size: 27.5 KB, free: 912.2 MB)
+2018-05-01 23:36:10 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 0 to 192.168.2.59:45102
+2018-05-01 23:36:10 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 0 to 192.168.2.59:45104
+2018-05-01 23:36:10 INFO  MapOutputTrackerMasterEndpoint:54 - Asked to send map output locations for shuffle 0 to 192.168.2.55:37786
+2018-05-01 23:36:40 INFO  TaskSetManager:54 - Starting task 32.0 in stage 2.0 (TID 152, hadoop-d, executor 3, partition 32, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:40 INFO  TaskSetManager:54 - Finished task 1.0 in stage 2.0 (TID 121) in 34637 ms on hadoop-d (executor 3) (1/60)
+2018-05-01 23:36:43 INFO  TaskSetManager:54 - Starting task 33.0 in stage 2.0 (TID 153, hadoop-d, executor 3, partition 33, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:43 INFO  TaskSetManager:54 - Finished task 3.0 in stage 2.0 (TID 123) in 37279 ms on hadoop-d (executor 3) (2/60)
+2018-05-01 23:36:45 INFO  TaskSetManager:54 - Starting task 34.0 in stage 2.0 (TID 154, hadoop-d, executor 7, partition 34, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:45 INFO  TaskSetManager:54 - Finished task 6.0 in stage 2.0 (TID 126) in 40109 ms on hadoop-d (executor 7) (3/60)
+2018-05-01 23:36:46 INFO  TaskSetManager:54 - Starting task 35.0 in stage 2.0 (TID 155, hadoop-d, executor 7, partition 35, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:46 INFO  TaskSetManager:54 - Finished task 4.0 in stage 2.0 (TID 124) in 40763 ms on hadoop-d (executor 7) (4/60)
+2018-05-01 23:36:47 INFO  TaskSetManager:54 - Starting task 36.0 in stage 2.0 (TID 156, hadoop-d, executor 7, partition 36, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:47 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 120) in 41475 ms on hadoop-d (executor 7) (5/60)
+2018-05-01 23:36:47 INFO  TaskSetManager:54 - Finished task 22.0 in stage 2.0 (TID 142) in 38804 ms on hadoop-d-3 (executor 1) (6/60)
+2018-05-01 23:36:48 INFO  TaskSetManager:54 - Starting task 37.0 in stage 2.0 (TID 157, hadoop-d, executor 7, partition 37, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:48 INFO  TaskSetManager:54 - Finished task 2.0 in stage 2.0 (TID 122) in 42747 ms on hadoop-d (executor 7) (7/60)
+2018-05-01 23:36:51 INFO  TaskSetManager:54 - Starting task 38.0 in stage 2.0 (TID 158, hadoop-d, executor 3, partition 38, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:51 INFO  TaskSetManager:54 - Finished task 5.0 in stage 2.0 (TID 125) in 45329 ms on hadoop-d (executor 3) (8/60)
+2018-05-01 23:36:52 INFO  TaskSetManager:54 - Starting task 39.0 in stage 2.0 (TID 159, hadoop-d, executor 3, partition 39, NODE_LOCAL, 7660 bytes)
+2018-05-01 23:36:52 INFO  TaskSetManager:54 - Finished task 7.0 in stage 2.0 (TID 127) in 46825 ms on hadoop-d (executor 3) (9/60)
+2018-05-01 23:36:53 INFO  TaskSetManager:54 - Finished task 19.0 in stage 2.0 (TID 139) in 43945 ms on hadoop-d-3 (executor 5) (10/60)
+2018-05-01 23:36:53 INFO  TaskSetManager:54 - Finished task 28.0 in stage 2.0 (TID 148) in 44611 ms on hadoop-d-3 (executor 1) (11/60)
+2018-05-01 23:36:53 INFO  TaskSetManager:54 - Finished task 25.0 in stage 2.0 (TID 145) in 44824 ms on hadoop-d-3 (executor 5) (12/60)
+2018-05-01 23:36:54 INFO  TaskSetManager:54 - Finished task 31.0 in stage 2.0 (TID 151) in 45193 ms on hadoop-d-3 (executor 5) (13/60)
+2018-05-01 23:36:55 INFO  TaskSetManager:54 - Finished task 10.0 in stage 2.0 (TID 130) in 46534 ms on hadoop-d-3 (executor 1) (14/60)
+2018-05-01 23:36:55 INFO  TaskSetManager:54 - Starting task 40.0 in stage 2.0 (TID 160, hadoop-d-3, executor 1, partition 40, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:55 INFO  TaskSetManager:54 - Starting task 41.0 in stage 2.0 (TID 161, hadoop-d-3, executor 1, partition 41, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:55 INFO  TaskSetManager:54 - Starting task 42.0 in stage 2.0 (TID 162, hadoop-d-3, executor 1, partition 42, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:55 INFO  TaskSetManager:54 - Starting task 43.0 in stage 2.0 (TID 163, hadoop-d-3, executor 1, partition 43, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:55 INFO  TaskSetManager:54 - Finished task 16.0 in stage 2.0 (TID 136) in 46808 ms on hadoop-d-3 (executor 1) (15/60)
+2018-05-01 23:36:56 INFO  TaskSetManager:54 - Starting task 44.0 in stage 2.0 (TID 164, hadoop-d-3, executor 5, partition 44, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:56 INFO  TaskSetManager:54 - Starting task 45.0 in stage 2.0 (TID 165, hadoop-d-3, executor 5, partition 45, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:56 INFO  TaskSetManager:54 - Starting task 46.0 in stage 2.0 (TID 166, hadoop-d-3, executor 5, partition 46, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:57 INFO  TaskSetManager:54 - Starting task 47.0 in stage 2.0 (TID 167, hadoop-d-1, executor 4, partition 47, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:57 INFO  TaskSetManager:54 - Finished task 21.0 in stage 2.0 (TID 141) in 48240 ms on hadoop-d-1 (executor 4) (16/60)
+2018-05-01 23:36:57 INFO  TaskSetManager:54 - Starting task 48.0 in stage 2.0 (TID 168, hadoop-d-1, executor 4, partition 48, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:57 INFO  TaskSetManager:54 - Finished task 15.0 in stage 2.0 (TID 135) in 48263 ms on hadoop-d-1 (executor 4) (17/60)
+2018-05-01 23:36:57 INFO  TaskSetManager:54 - Starting task 49.0 in stage 2.0 (TID 169, hadoop-d-3, executor 5, partition 49, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:57 INFO  TaskSetManager:54 - Finished task 13.0 in stage 2.0 (TID 133) in 48697 ms on hadoop-d-3 (executor 5) (18/60)
+2018-05-01 23:36:59 INFO  TaskSetManager:54 - Starting task 50.0 in stage 2.0 (TID 170, hadoop-d-1, executor 8, partition 50, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:36:59 INFO  TaskSetManager:54 - Finished task 11.0 in stage 2.0 (TID 131) in 49906 ms on hadoop-d-1 (executor 8) (19/60)
+2018-05-01 23:37:01 INFO  TaskSetManager:54 - Starting task 51.0 in stage 2.0 (TID 171, hadoop-d-1, executor 8, partition 51, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:37:01 INFO  TaskSetManager:54 - Finished task 23.0 in stage 2.0 (TID 143) in 51979 ms on hadoop-d-1 (executor 8) (20/60)
+2018-05-01 23:37:02 INFO  TaskSetManager:54 - Starting task 52.0 in stage 2.0 (TID 172, hadoop-d-2, executor 2, partition 52, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:37:02 INFO  TaskSetManager:54 - Finished task 18.0 in stage 2.0 (TID 138) in 53609 ms on hadoop-d-2 (executor 2) (21/60)
+2018-05-01 23:37:03 INFO  TaskSetManager:54 - Starting task 53.0 in stage 2.0 (TID 173, hadoop-d-1, executor 4, partition 53, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:37:03 INFO  TaskSetManager:54 - Finished task 9.0 in stage 2.0 (TID 129) in 54775 ms on hadoop-d-1 (executor 4) (22/60)
+2018-05-01 23:37:05 INFO  TaskSetManager:54 - Starting task 54.0 in stage 2.0 (TID 174, hadoop-d-1, executor 8, partition 54, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:37:05 INFO  TaskSetManager:54 - Finished task 17.0 in stage 2.0 (TID 137) in 56227 ms on hadoop-d-1 (executor 8) (23/60)
+2018-05-01 23:37:06 INFO  TaskSetManager:54 - Starting task 55.0 in stage 2.0 (TID 175, hadoop-d-1, executor 8, partition 55, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:37:06 INFO  TaskSetManager:54 - Finished task 29.0 in stage 2.0 (TID 149) in 56881 ms on hadoop-d-1 (executor 8) (24/60)
+2018-05-01 23:37:06 INFO  TaskSetManager:54 - Starting task 56.0 in stage 2.0 (TID 176, hadoop-d-2, executor 6, partition 56, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:37:06 INFO  TaskSetManager:54 - Finished task 14.0 in stage 2.0 (TID 134) in 57132 ms on hadoop-d-2 (executor 6) (25/60)
+2018-05-01 23:37:06 INFO  TaskSetManager:54 - Starting task 57.0 in stage 2.0 (TID 177, hadoop-d-2, executor 6, partition 57, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:37:06 INFO  TaskSetManager:54 - Finished task 8.0 in stage 2.0 (TID 128) in 57752 ms on hadoop-d-2 (executor 6) (26/60)
+2018-05-01 23:37:10 INFO  TaskSetManager:54 - Starting task 58.0 in stage 2.0 (TID 178, hadoop-d-1, executor 4, partition 58, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:37:10 INFO  TaskSetManager:54 - Finished task 27.0 in stage 2.0 (TID 147) in 61039 ms on hadoop-d-1 (executor 4) (27/60)
+2018-05-01 23:37:17 INFO  TaskSetManager:54 - Starting task 59.0 in stage 2.0 (TID 179, hadoop-d-2, executor 2, partition 59, RACK_LOCAL, 7660 bytes)
+2018-05-01 23:37:17 INFO  TaskSetManager:54 - Finished task 24.0 in stage 2.0 (TID 144) in 68587 ms on hadoop-d-2 (executor 2) (28/60)
+2018-05-01 23:37:18 INFO  TaskSetManager:54 - Finished task 32.0 in stage 2.0 (TID 152) in 38128 ms on hadoop-d (executor 3) (29/60)
+2018-05-01 23:37:18 INFO  TaskSetManager:54 - Finished task 36.0 in stage 2.0 (TID 156) in 31578 ms on hadoop-d (executor 7) (30/60)
+2018-05-01 23:37:19 INFO  TaskSetManager:54 - Finished task 12.0 in stage 2.0 (TID 132) in 70456 ms on hadoop-d-2 (executor 2) (31/60)
+2018-05-01 23:37:21 INFO  TaskSetManager:54 - Finished task 34.0 in stage 2.0 (TID 154) in 35254 ms on hadoop-d (executor 7) (32/60)
+2018-05-01 23:37:21 INFO  TaskSetManager:54 - Finished task 38.0 in stage 2.0 (TID 158) in 30045 ms on hadoop-d (executor 3) (33/60)
+2018-05-01 23:37:21 INFO  TaskSetManager:54 - Finished task 30.0 in stage 2.0 (TID 150) in 72108 ms on hadoop-d-2 (executor 2) (34/60)
+2018-05-01 23:37:22 INFO  TaskSetManager:54 - Finished task 39.0 in stage 2.0 (TID 159) in 29417 ms on hadoop-d (executor 3) (35/60)
+2018-05-01 23:37:22 INFO  TaskSetManager:54 - Finished task 35.0 in stage 2.0 (TID 155) in 35481 ms on hadoop-d (executor 7) (36/60)
+2018-05-01 23:37:22 INFO  TaskSetManager:54 - Finished task 33.0 in stage 2.0 (TID 153) in 38971 ms on hadoop-d (executor 3) (37/60)
+2018-05-01 23:37:24 INFO  TaskSetManager:54 - Finished task 37.0 in stage 2.0 (TID 157) in 35791 ms on hadoop-d (executor 7) (38/60)
+2018-05-01 23:37:24 INFO  TaskSetManager:54 - Finished task 26.0 in stage 2.0 (TID 146) in 75407 ms on hadoop-d-2 (executor 6) (39/60)
+2018-05-01 23:37:25 INFO  TaskSetManager:54 - Finished task 46.0 in stage 2.0 (TID 166) in 29543 ms on hadoop-d-3 (executor 5) (40/60)
+2018-05-01 23:37:28 INFO  TaskSetManager:54 - Finished task 20.0 in stage 2.0 (TID 140) in 79835 ms on hadoop-d-2 (executor 6) (41/60)
+2018-05-01 23:37:29 INFO  TaskSetManager:54 - Finished task 44.0 in stage 2.0 (TID 164) in 33728 ms on hadoop-d-3 (executor 5) (42/60)
+2018-05-01 23:37:29 INFO  TaskSetManager:54 - Finished task 40.0 in stage 2.0 (TID 160) in 33974 ms on hadoop-d-3 (executor 1) (43/60)
+2018-05-01 23:37:30 INFO  TaskSetManager:54 - Finished task 49.0 in stage 2.0 (TID 169) in 32828 ms on hadoop-d-3 (executor 5) (44/60)
+2018-05-01 23:37:31 INFO  TaskSetManager:54 - Finished task 42.0 in stage 2.0 (TID 162) in 35442 ms on hadoop-d-3 (executor 1) (45/60)
+2018-05-01 23:37:31 INFO  TaskSetManager:54 - Finished task 45.0 in stage 2.0 (TID 165) in 35826 ms on hadoop-d-3 (executor 5) (46/60)
+2018-05-01 23:37:32 INFO  TaskSetManager:54 - Finished task 41.0 in stage 2.0 (TID 161) in 36161 ms on hadoop-d-3 (executor 1) (47/60)
+2018-05-01 23:37:32 INFO  TaskSetManager:54 - Finished task 43.0 in stage 2.0 (TID 163) in 36960 ms on hadoop-d-3 (executor 1) (48/60)
+2018-05-01 23:37:33 INFO  TaskSetManager:54 - Finished task 52.0 in stage 2.0 (TID 172) in 31080 ms on hadoop-d-2 (executor 2) (49/60)
+2018-05-01 23:37:35 INFO  TaskSetManager:54 - Finished task 57.0 in stage 2.0 (TID 177) in 28860 ms on hadoop-d-2 (executor 6) (50/60)
+2018-05-01 23:37:35 INFO  TaskSetManager:54 - Finished task 56.0 in stage 2.0 (TID 176) in 29547 ms on hadoop-d-2 (executor 6) (51/60)
+2018-05-01 23:37:36 INFO  TaskSetManager:54 - Finished task 55.0 in stage 2.0 (TID 175) in 30719 ms on hadoop-d-1 (executor 8) (52/60)
+2018-05-01 23:37:40 INFO  TaskSetManager:54 - Finished task 59.0 in stage 2.0 (TID 179) in 22790 ms on hadoop-d-2 (executor 2) (53/60)
+2018-05-01 23:37:40 INFO  TaskSetManager:54 - Finished task 50.0 in stage 2.0 (TID 170) in 41605 ms on hadoop-d-1 (executor 8) (54/60)
+2018-05-01 23:37:42 INFO  TaskSetManager:54 - Finished task 48.0 in stage 2.0 (TID 168) in 44670 ms on hadoop-d-1 (executor 4) (55/60)
+2018-05-01 23:37:42 INFO  TaskSetManager:54 - Finished task 54.0 in stage 2.0 (TID 174) in 36835 ms on hadoop-d-1 (executor 8) (56/60)
+2018-05-01 23:37:42 INFO  TaskSetManager:54 - Finished task 47.0 in stage 2.0 (TID 167) in 44948 ms on hadoop-d-1 (executor 4) (57/60)
+2018-05-01 23:37:43 INFO  TaskSetManager:54 - Finished task 51.0 in stage 2.0 (TID 171) in 42725 ms on hadoop-d-1 (executor 8) (58/60)
+2018-05-01 23:37:44 INFO  TaskSetManager:54 - Finished task 58.0 in stage 2.0 (TID 178) in 33833 ms on hadoop-d-1 (executor 4) (59/60)
+2018-05-01 23:37:44 INFO  TaskSetManager:54 - Finished task 53.0 in stage 2.0 (TID 173) in 40833 ms on hadoop-d-1 (executor 4) (60/60)
+2018-05-01 23:37:44 INFO  YarnScheduler:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2018-05-01 23:37:44 INFO  DAGScheduler:54 - ResultStage 2 (runJob at SparkHadoopWriter.scala:78) finished in 98.918 s
+2018-05-01 23:37:44 INFO  DAGScheduler:54 - Job 1 finished: runJob at SparkHadoopWriter.scala:78, took 144.647775 s
+2018-05-01 23:37:45 INFO  SparkHadoopWriter:54 - Job job_20180501233520_0009 committed.
+2018-05-01 23:37:45 INFO  AbstractConnector:318 - Stopped Spark@751e664e{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-05-01 23:37:45 INFO  SparkUI:54 - Stopped Spark web UI at http://hadoop-d:4040
+2018-05-01 23:37:45 INFO  YarnClientSchedulerBackend:54 - Interrupting monitor thread
+2018-05-01 23:37:45 INFO  YarnClientSchedulerBackend:54 - Shutting down all executors
+2018-05-01 23:37:45 INFO  YarnSchedulerBackend$YarnDriverEndpoint:54 - Asking each executor to shut down
+2018-05-01 23:37:45 INFO  SchedulerExtensionServices:54 - Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+2018-05-01 23:37:45 INFO  YarnClientSchedulerBackend:54 - Stopped
+2018-05-01 23:37:45 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2018-05-01 23:37:45 INFO  MemoryStore:54 - MemoryStore cleared
+2018-05-01 23:37:45 INFO  BlockManager:54 - BlockManager stopped
+2018-05-01 23:37:45 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2018-05-01 23:37:45 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2018-05-01 23:37:45 INFO  SparkContext:54 - Successfully stopped SparkContext
+Time taken in seconds to sort file using Spark is: 220.669
+2018-05-01 23:37:45 INFO  ShutdownHookManager:54 - Shutdown hook called
+2018-05-01 23:37:45 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-390a2a59-2ad4-4a1d-b860-c58dd8a8023d
+2018-05-01 23:37:45 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-435c1a06-0635-4f87-a1b2-2a3e98e80bca
+18/05/01 23:37:49 INFO client.RMProxy: Connecting to ResourceManager at hadoop-d/192.168.2.62:8032
+18/05/01 23:37:50 INFO input.FileInputFormat: Total input files to process : 60
+Spent 61ms computing base-splits.
+Spent 11ms computing TeraScheduler splits.
+18/05/01 23:37:51 INFO mapreduce.JobSubmitter: number of splits:60
+18/05/01 23:37:51 INFO Configuration.deprecation: yarn.resourcemanager.system-metrics-publisher.enabled is deprecated. Instead, use yarn.system-metrics-publisher.enabled
+18/05/01 23:37:51 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1524709778346_0463
+18/05/01 23:37:51 INFO impl.YarnClientImpl: Submitted application application_1524709778346_0463
+18/05/01 23:37:51 INFO mapreduce.Job: The url to track the job: http://hadoop-d:8088/proxy/application_1524709778346_0463/
+18/05/01 23:37:51 INFO mapreduce.Job: Running job: job_1524709778346_0463
+18/05/01 23:37:59 INFO mapreduce.Job: Job job_1524709778346_0463 running in uber mode : false
+18/05/01 23:37:59 INFO mapreduce.Job:  map 0% reduce 0%
+18/05/01 23:38:14 INFO mapreduce.Job:  map 10% reduce 0%
+18/05/01 23:38:17 INFO mapreduce.Job:  map 22% reduce 0%
+18/05/01 23:38:18 INFO mapreduce.Job:  map 37% reduce 0%
+18/05/01 23:38:19 INFO mapreduce.Job:  map 50% reduce 0%
+18/05/01 23:38:26 INFO mapreduce.Job:  map 52% reduce 0%
+18/05/01 23:38:27 INFO mapreduce.Job:  map 67% reduce 0%
+18/05/01 23:38:30 INFO mapreduce.Job:  map 68% reduce 0%
+18/05/01 23:38:32 INFO mapreduce.Job:  map 75% reduce 0%
+18/05/01 23:38:33 INFO mapreduce.Job:  map 83% reduce 0%
+18/05/01 23:38:34 INFO mapreduce.Job:  map 87% reduce 0%
+18/05/01 23:38:36 INFO mapreduce.Job:  map 97% reduce 0%
+18/05/01 23:38:37 INFO mapreduce.Job:  map 100% reduce 100%
+18/05/01 23:38:38 INFO mapreduce.Job: Job job_1524709778346_0463 completed successfully
+18/05/01 23:38:38 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=4986
+		FILE: Number of bytes written=12318535
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=8000007380
+		HDFS: Number of bytes written=25
+		HDFS: Number of read operations=183
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=60
+		Launched reduce tasks=1
+		Data-local map tasks=57
+		Rack-local map tasks=3
+		Total time spent by all maps in occupied slots (ms)=838144
+		Total time spent by all reduces in occupied slots (ms)=19575
+		Total time spent by all map tasks (ms)=838144
+		Total time spent by all reduce tasks (ms)=19575
+		Total vcore-milliseconds taken by all map tasks=838144
+		Total vcore-milliseconds taken by all reduce tasks=19575
+		Total megabyte-milliseconds taken by all map tasks=858259456
+		Total megabyte-milliseconds taken by all reduce tasks=20044800
+	Map-Reduce Framework
+		Map input records=80000000
+		Map output records=180
+		Map output bytes=4620
+		Map output materialized bytes=5340
+		Input split bytes=7380
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=121
+		Reduce shuffle bytes=5340
+		Reduce input records=180
+		Reduce output records=1
+		Spilled Records=360
+		Shuffled Maps =60
+		Failed Shuffles=0
+		Merged Map outputs=60
+		GC time elapsed (ms)=15309
+		CPU time spent (ms)=172490
+		Physical memory (bytes) snapshot=17760256000
+		Virtual memory (bytes) snapshot=120132407296
+		Total committed heap usage (bytes)=11935940608
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=8000000000
+	File Output Format Counters 
+		Bytes Written=25
